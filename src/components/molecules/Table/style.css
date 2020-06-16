@@ -1,7 +1,6 @@
 .table__container {
 	padding: 30px;
 	background: rgba(89, 166, 147, 0.1);
-	/* width: 94%; */
 	margin-top: 20px;
 	max-height: 40vh;
 	overflow-y: scroll;
@@ -11,6 +10,7 @@
 	width: 100%;
 	border-collapse: collapse;
 	border-spacing: 20px;
+	white-space: nowrap;
 }
 
 .customers td,

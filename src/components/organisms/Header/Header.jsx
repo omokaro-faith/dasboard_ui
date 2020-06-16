@@ -28,7 +28,7 @@ const Header = ({ pageName }) => {
 				<NavLink to="/financials" activeStyle={activeStyle}>
 					Financials
 				</NavLink>
-				<NavLink to="/support" activeStyle={{ activeStyle }}>
+				<NavLink to="/support" activeStyle={activeStyle}>
 					Support
 				</NavLink>
 			</div>
