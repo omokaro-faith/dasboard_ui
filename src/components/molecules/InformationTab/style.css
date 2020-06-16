@@ -1,0 +1,64 @@
+.informationtab__container {
+	background: whitesmoke;
+	border-radius: 5px;
+	padding: 3.4% 11% 3%;
+	margin-top: 70px;
+	display: flex;
+}
+
+.informationtab__container div > p:first-child {
+	color: green;
+	font-size: 14px;
+}
+
+.first__content > p:first-child {
+	margin-bottom: 18px;
+}
+
+.informationtab__container div > p:last-child,
+p:nth-child(2) {
+	font-weight: 700;
+}
+
+.first__content {
+	width: 30%;
+}
+
+.second__content > p:nth-child(2),
+.third__content > p:nth-child(2) {
+	margin-top: 6px;
+	margin-bottom: 4px;
+}
+
+.second__content {
+	width: 47%;
+}
+
+.third__content {
+	width: 52%;
+}
+
+@media screen and (max-width: 950px) {
+	.informationtab__container {
+		display: block;
+		padding: 3.4% 3% 3%;
+		margin-top: 30px;
+	}
+
+	.second__content > p:first-child,
+	.third__content > p:first-child {
+		margin-top: 20px;
+	}
+
+	.mid__section {
+		display: block;
+		margin-top: 20px;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.transparent__button {
+		position: initial;
+	}
+}

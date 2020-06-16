@@ -1,0 +1,39 @@
+.pagination {
+	display: inline-block;
+	font-weight: 700;
+}
+
+.pagination a:first-child {
+	color: green;
+	border: 1px solid green;
+	padding: 2px 8px;
+	border-radius: 3px;
+	float: left;
+	text-decoration: none;
+	margin-right: 40px;
+}
+
+.pagination a:last-child {
+	color: green;
+	border: 1px solid green;
+	padding: 2px 8px;
+	border-radius: 3px;
+	float: left;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+.pagination .anchor {
+	color: black;
+	float: left;
+	padding: 2px 6px;
+	text-decoration: none;
+}
+
+.pagination a.active {
+	color: green;
+}
+
+.pagination a:hover:not(.active) {
+	border: 1px solid green;
+}

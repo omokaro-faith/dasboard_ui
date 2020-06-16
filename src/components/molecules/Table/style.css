@@ -1,0 +1,47 @@
+.table__container {
+	padding: 30px;
+	background: rgba(89, 166, 147, 0.1);
+	/* width: 94%; */
+	margin-top: 20px;
+	max-height: 40vh;
+	overflow-y: scroll;
+}
+
+.customers {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 20px;
+}
+
+.customers td,
+.customers th {
+	font-weight: 400;
+	text-align: left;
+}
+
+.customers th {
+	padding: 20px 20px 20px;
+}
+
+.customers td {
+	padding: 20px 20px 20px;
+}
+
+tbody > tr {
+	background: white;
+	border-bottom: 10px solid rgba(89, 166, 147, 0.1);
+}
+
+tbody > tr:last-child {
+	background: white;
+	border-bottom: none;
+}
+
+.circle {
+	width: 10px;
+	height: 10px;
+	background: dodgerblue;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 8px;
+}

@@ -1,0 +1,19 @@
+.mid__section {
+	display: inline-block;
+	text-align: center;
+	width: 95%;
+}
+
+.page__name {
+	font-size: 14px;
+}
+
+.page__title {
+	font-size: 28px;
+	font-weight: 300 !important;
+	margin-top: 12px;
+}
+
+.subheader_container {
+	padding-right: 1em;
+}
